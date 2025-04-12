@@ -1,7 +1,9 @@
 # VidyAI++ – Multilingual AI Tutoring & Mentorship Platform
 Selected Domain  - Artificial Intelligence and Machine Learning
+******************
 
 Problem Statement- “VidyAI++ – Multilingual AI Tutoring & Mentorship Platform for BPL Government School Students”
+*******************
 
 Use Case         - How can we provide personalized, multilingual, and AI-driven academic support to BPL students in government schools—especially those in low-connectivity regions—with minimal digital literacy?
 ***************
