@@ -1,31 +1,28 @@
 # VidyAI++ – Multilingual AI Tutoring & Mentorship Platform
-VidyAI++ – Multilingual AI Tutoring & Mentorship Platform
-VidyAI++ is an AI-powered, multilingual tutoring and mentorship platform built for BPL (Below Poverty Line) students in Indian government schools. Designed during a 24-hour hackathon, it delivers personalized, inclusive, and offline-capable learning aligned with the National Education Policy (NEP).
+Selected Domain  - Artificial Intelligence and Machine Learning
 
-Core Features
-Multilingual AI Tutoring using Gemini API to generate class-level content and quizzes in Indian regional languages (text and speech).
+Problem Statement- “VidyAI++ – Multilingual AI Tutoring & Mentorship Platform for BPL Government School Students”
 
-Emotion-Aware Learning with DeepFace and OpenCV for detecting emotion, fatigue, and eye movement to adapt teaching pace.
+Use Case         - How can we provide personalized, multilingual, and AI-driven academic support to BPL students in government schools—especially those in low-connectivity regions—with minimal digital literacy?
 
-Adaptive Content Delivery that adjusts lesson complexity based on student engagement using AI.
+Abstract
+***************
+VidyAI++ is an AI-powered, multilingual tutoring and mentorship platform developed to support Below Poverty Line (BPL) students in Indian government schools. Aligned with the National Education Policy (NEP), it aims to make learning inclusive, accessible, and personalized through real-time AI adaptation, emotion-aware teaching, and multilingual content generation.
 
-Mentor Matchmaking system powered by ML to connect students with suitable mentors based on emotion, need, and region.
+The platform supports dynamic lesson delivery using generative AI (Gemini API) that creates class-specific content and quizzes in regional Indian languages, both in text and speech. Using DeepFace and OpenCV, VidyAI++ tracks student emotions, eye movements, and fatigue levels through webcam analysis to adjust the complexity and pace of lessons.
 
-Learning Style Personalization to tailor content for visual, auditory, or kinesthetic learners.
+To cater to diverse learning needs, VidyAI++ classifies learners into visual, auditory, or kinesthetic types and adapts the teaching format accordingly. It also uses an ML-based mentor-matching engine to connect students with human mentors based on academic requirements, regional compatibility, and emotional states.
 
-Gamified Learning with digital badges, streaks, heatmaps, and micro-certifications for motivation and retention.
+The system is built as an offline-first PWA using TensorFlow Lite and browser-based storage, ensuring seamless learning in low or no-internet zones. Its voice-based, icon-driven interface also breaks down literacy barriers, making it usable for students and parents with limited reading skills.
 
-Offline-First Architecture using Progressive Web App (PWA) and TensorFlow Lite for on-device inference in low or no-internet areas.
-
-Zero Literacy Interface featuring voice-based navigation, translation, and large visual cues for accessibility.
-
-Tech Stack
+Tech Stack Used
+*****************
 Frontend: React, Tailwind CSS
 
-Backend: Node.js, Express
+Backend: Node.js, Express.js
 
 AI/ML: Gemini API, DeepFace, OpenCV, TensorFlow Lite
 
-Offline Support: PWA, TensorFlow Lite, IndexedDB
+Offline Support: Progressive Web App (PWA), IndexedDB, TensorFlow Lite
 
-Voice Interface: Web Speech API
+Voice Interface: Web Speech API (STT & TTS)
